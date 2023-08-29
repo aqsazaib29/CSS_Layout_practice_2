@@ -1,0 +1,152 @@
+.header_1{
+    background-color: rgb(5, 126, 218);
+    display: flex;
+    color: white;
+    height: 23px;
+    font-size: 8px;
+}
+.p1{
+    padding: 0% 35% 0% 5%;
+}
+.p2{
+    padding: 0% 0% 0% 40%;
+}
+
+.header_2{
+    background-color: black;
+    height: 40px;
+    color: white;
+    display: flex;
+    font-size: 14px;   
+}
+.header_2 h3{
+    margin: 8px 0px 0px 65px;
+    font-size: 20px;
+}
+.list{
+    margin:1px 0px 1px 400px;
+    text-transform: uppercase;
+
+}
+.header_2 ul{
+    display: flex;
+} 
+.header_2 li{
+    list-style: none;
+    padding-right: 20px;
+}
+.header_2 a{
+    text-decoration: none;
+    color: white;
+    padding:15px 10px 9px 10px;
+}
+.list ul li a:hover{
+    background-color:rgb(5, 126, 218);
+}
+
+.below_header{
+    height: 350px;
+    border:none;
+    color: white;
+    background-image:linear-gradient(rgba(88, 99, 99, 0.6),rgba(86, 72, 72, 0.7)),url("originality.jpg");
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.below_header:hover{
+    background-image:linear-gradient( rgb(5, 126, 218,0.8), rgb(5, 126, 218,0.8)),url("originality.jpg");
+}
+.below_header h1{
+    padding: 10% 5% 2% 38%;
+    font-size: 45px;
+    margin: 0px;
+    text-transform: uppercase;
+}
+.below_header p{
+    padding-left:41%;
+    font-size: 18px;
+    margin: 0px;
+}
+.overlay {
+    position: absolute;
+    bottom: 0;
+    background: rgb(0, 0, 0);
+    background: rgba(0, 0, 0, 0.5); /* Black see-through */
+    color: #f1f1f1;
+    width: 100%;
+    transition: .5s ease;
+    opacity:0;
+    color: white;
+    font-size: 20px;
+    padding: 20px;
+    text-align: center;
+  }
+  
+
+.company{
+    display: flex;
+    background-color: rgb(229, 227, 227);
+    padding: 2% 10% 2% 4%;
+    height: 100px;
+}
+.company_1{
+    margin: 0% 2% 2% 1%;
+}
+.company h2 {
+    font-size: 20px ;
+}
+.company p{
+    font-size: 15px;
+}
+.company button{
+    color:white;
+    font-size: 13px;
+    background-color: rgb(5, 126, 218);
+    border: none;
+    width: 80px;
+    height: 25px;
+    margin: 45% 10% 2% 1%;
+}
+
+.service_1{
+    text-align: center;
+    font-size: 15px;
+    margin: 4% 2% 4% 2% ;
+}
+.service_1 h2{
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
+.service2_div{
+    display: flex;
+    margin: 1% 7% 2% 7%;
+}
+.service2_div>div{
+    display: flex;
+}
+.content {
+    padding: 10px;
+    margin-right:3%;
+    text-align: justify;
+}
+.content h4{
+    font-size: 15px;
+    margin: 0% 0% 2% 0%;
+}
+.content p{
+    font-size: 13px;
+    margin: 0% 0% 2% 0%;
+}
+.icons{
+    color: aliceblue;
+    background-color:rgb(5, 126, 218);
+    padding: 14px;
+}
+.icon_div{
+    margin: 4% 0% 2% 0% ;
+}
+    
+
+
+
